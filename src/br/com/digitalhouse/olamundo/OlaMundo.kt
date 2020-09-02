@@ -25,11 +25,11 @@ fun mostrarMeuNome(sobrenome: String, idade: Int): String{
 
 }
 
-fun alunosDeAndroid(): String{
+fun alunosDeAndroid(): ArrayList<String>{
     val listaAlunos = arrayListOf<String>()
     listaAlunos.add("Wagner")
     listaAlunos.add("Jéssica")
     listaAlunos.add("Vitória")
 
-    return listaAlunos.get(0);
+    return listaAlunos
 }

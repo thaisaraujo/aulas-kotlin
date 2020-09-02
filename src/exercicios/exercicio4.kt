@@ -1,18 +1,18 @@
 package exercicios
 
 fun main(){
-    imprimirNumero()
+    println(imprimirNumero())
 }
 
-fun imprimirNumero(): {
+fun imprimirNumero(): ArrayList<Int>{
     var numerosImpares = arrayListOf<Int>()
 
     for(x in 0..100){
-        if(x % 2 == 0){
+        if(x % 2 != 0){
             numerosImpares.add(x)
         }
     }
 
-    println(numerosImpares)
+    return numerosImpares
 
 }
