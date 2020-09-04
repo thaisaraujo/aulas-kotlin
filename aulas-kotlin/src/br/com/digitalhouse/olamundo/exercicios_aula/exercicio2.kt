@@ -1,4 +1,4 @@
-package exercicios
+package exercicios_02
 
 import kotlin.test.assertTrue
 

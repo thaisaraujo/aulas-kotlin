@@ -1,4 +1,4 @@
-package exercicios
+package exercicios_02
 
 fun main(){
     println(analisaNumero(10,20,1,2))

@@ -1,4 +1,4 @@
-package exercicios
+package exercicios_02
 
 fun main(){
     println(imprimirNumero())
