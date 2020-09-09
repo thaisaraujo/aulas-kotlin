@@ -1,5 +1,6 @@
 # Default ignored files
 /shelf/
-/aulas-kotlin/.idea/workspace.xml
-/.idea/
-/out/
+/.idea
+/aulas-kotlin/.idea
+/aulas-kotlin/out
+*.iml
