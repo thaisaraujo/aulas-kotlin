@@ -13,6 +13,6 @@ fun main(){
     conta1.saque(1000000f)
 
     conta2.depositar(200f)
-    conta2.saque(600000f)
+    conta2.saque(700000f)
 
 }
