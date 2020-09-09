@@ -3,8 +3,13 @@ package br.com.digitalhouse.kotlincomobjetos.aula04092020.exercicios_extras.exer
 class Conta (val numeroDaConta: Int, var saldo: Float, val titular: Cliente) {
 
     fun depositar(valor: Float) {
-        saldo+=valor
-        println("Novo saldo de ${saldo}")
+        if(valor > 0) {
+            saldo += valor
+            println("Novo saldo de ${saldo}")
+        }else{
+            println("Valor Inválido para realizar deposito")
+        }
+
     }
 
     fun saque(valor: Float){
