@@ -1,6 +1,4 @@
-package br.com.digitalhouse.kotlincomobjetos.exercicios_aula
-
-import br.com.digitalhouse.kotlincomobjetos.exercicios_aula.Cachorro
+package br.com.digitalhouse.kotlincomobjetos.aula04092020.exercicios_aula
 
 class Pessoa(var nome: String, var sobrenome: String) {
     /*exemplo de init

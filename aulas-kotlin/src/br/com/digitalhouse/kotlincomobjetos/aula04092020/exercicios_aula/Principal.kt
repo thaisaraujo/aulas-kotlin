@@ -1,7 +1,5 @@
-package br.com.digitalhouse.kotlincomobjetos.exercicios_aula
+package br.com.digitalhouse.kotlincomobjetos.aula04092020.exercicios_aula
 
-import br.com.digitalhouse.kotlincomobjetos.exercicios_aula.Cachorro
-import br.com.digitalhouse.kotlincomobjetos.exercicios_aula.Pessoa
 import java.util.*
 
 fun main() {

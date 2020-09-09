@@ -1,4 +1,4 @@
-package br.com.digitalhouse.kotlincomobjetos.exercicios_extras.exercicio3
+package br.com.digitalhouse.kotlincomobjetos.aula04092020.exercicios_extras.exercicio3
 
 fun main(){
     val atleta1 = Atleta("Marta", 10, 80.3f)

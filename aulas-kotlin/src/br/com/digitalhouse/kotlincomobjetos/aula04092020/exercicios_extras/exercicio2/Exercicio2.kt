@@ -1,4 +1,4 @@
-package br.com.digitalhouse.kotlincomobjetos.exercicios_extras.exercicio2
+package br.com.digitalhouse.kotlincomobjetos.aula04092020.exercicios_extras.exercicio2
 
 fun main(){
     val jogador1 = JogadorDeFutebol("Ronaldo", 100.0f, 50.0f, 5, 4)

@@ -1,4 +1,4 @@
-package br.com.digitalhouse.kotlincomobjetos.exercicios_extras.exercicio4
+package br.com.digitalhouse.kotlincomobjetos.aula04092020.exercicios_extras.exercicio4
 
 fun main(){
 
