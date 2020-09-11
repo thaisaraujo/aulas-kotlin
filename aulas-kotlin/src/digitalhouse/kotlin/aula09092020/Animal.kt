@@ -1,4 +1,4 @@
-package digitalhouse.kotlincomobjetos.aula09092020.exercicios_aula
+package digitalhouse.kotlin.aula09092020
 
 abstract class Animal(open val idade: Int = 0, open val especie: String = "")  {
 
