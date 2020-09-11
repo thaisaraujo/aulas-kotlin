@@ -1,4 +1,4 @@
-package digitalhouse.olamundo
+package digitalhouse.olamundo.aula02092020
 
 fun main(){
     println("Olá Mundo!")

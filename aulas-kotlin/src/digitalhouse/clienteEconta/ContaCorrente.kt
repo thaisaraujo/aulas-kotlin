@@ -1,6 +1,6 @@
 package digitalhouse.ClienteConta
 
-class ContaCorrente (numeroDaConta: Int, saldo: Float, titular: Cliente, val cheque : Cheque, val chequeEspecial : Float)
+class ContaCorrente (numeroDaConta: Int, saldo: Float, titular: Cliente, val chequeEspecial : Float)
                      : Conta(numeroDaConta,saldo, titular) {
 
     override fun saque(valor: Float) {

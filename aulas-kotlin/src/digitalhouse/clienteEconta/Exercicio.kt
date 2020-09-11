@@ -15,7 +15,7 @@ fun main(){
     println ("\n\nCLIENTE CONTA CORRENTE ---------------------------------------------------------------------------")
     val clienteCor = Cliente (202,"Draco", "Malfoy",987654321, 333222111)
     val chequeCorrente = Cheque(120f,"Santander", "09/09/2020")
-    val contaCor = ContaCorrente(3030,500f,clienteCor,chequeCorrente,200f)
+    val contaCor = ContaCorrente(3030,500f,clienteCor,200f)
 
     contaCor.depositarCheque(chequeCorrente)
     contaCor.depositar(500f)

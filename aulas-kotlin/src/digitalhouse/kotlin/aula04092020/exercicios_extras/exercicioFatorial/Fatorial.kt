@@ -12,3 +12,11 @@ class Fatorial (var numero: Int) {
     }
 
 }
+
+fun main(){
+
+    val fat = Fatorial(7)
+
+    println("Fatorial de ${fat.numero} é ${fat.fatorial(fat.numero)}")
+
+}
