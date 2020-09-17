@@ -6,9 +6,6 @@ fun main(){
     val guardaVolumes = GuardaVolumes()
     val chave = guardaVolumes.guardarPecas(listaDeCasaco)
 
-    println("PEÇAS GUARDADADAS")
-    println("Chave: ${chave} | $listaDeCasaco")
-
     println("\nMOSTRAR PEÇAS SEM PARÂMETROS")
     guardaVolumes.mostrarPecas()
 

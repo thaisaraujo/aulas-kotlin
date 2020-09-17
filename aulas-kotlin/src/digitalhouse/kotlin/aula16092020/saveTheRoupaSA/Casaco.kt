@@ -6,6 +6,7 @@ class Casaco(marca: String, modelo: String) : Peca(marca, modelo) {
         println("Retirado do Produto: $marca | $modelo")
     }
 
+
     override fun toString(): String {
         return "Peça: $marca - $modelo"
     }
