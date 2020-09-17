@@ -19,6 +19,5 @@ fun main(){
     var statusEstoque = estoque.precisaRepor()
     println("Precisa Repor: ${if (statusEstoque) "sim" else "não"}")
 
-
 }
 
